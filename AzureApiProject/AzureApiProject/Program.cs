@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Azure.Cosmos;
 using Azure.Security.KeyVault.Secrets;
 using Azure.Identity;
+using Microsoft.Azure.Functions.Worker;
 
 
 var host = new HostBuilder()
