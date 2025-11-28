@@ -1,9 +1,0 @@
-{
-  "profiles": {
-    "AzureApiProject": {
-      "commandName": "Project",
-      "commandLineArgs": "--port 7264",
-      "launchBrowser": false
-    }
-  }
-}
