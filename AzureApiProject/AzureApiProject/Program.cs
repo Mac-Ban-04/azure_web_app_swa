@@ -11,6 +11,9 @@ var host = new HostBuilder()
     .ConfigureFunctionsWebApplication()
     .ConfigureServices(services =>
     {
+
+        services.AddApplicationInsightsTelemetryWorkerService();
+        services.ConfigureFunctionsApplicationInsights();
         // Konfiguracja BlobServiceClient
         services.AddSingleton(provider => 
             new BlobServiceClient(Environment.GetEnvironmentVariable("STORAGE_CONNECTION_STRING")));
