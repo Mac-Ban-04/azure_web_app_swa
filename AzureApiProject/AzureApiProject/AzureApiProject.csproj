@@ -17,6 +17,7 @@
         <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.56.0" />
         <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="2.50.0"/>
         <PackageReference Include="Microsoft.Azure.Functions.Worker.ApplicationInsights" Version="2.50.0"/>
+        <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.3.0" />
         <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" Version="2.1.0"/>
         <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Storage.Blobs" Version="6.8.0" />
         <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Timer" Version="4.3.1" />
